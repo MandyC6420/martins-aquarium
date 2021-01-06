@@ -64,10 +64,23 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: Impact;
+  text-shadow: 1px 1px lightblue
 }
 
 .quotes {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#coding, h2 {
+    font-size: 40px;
+    padding-bottom: 1em;
+    font-family: Impact;
+    text-shadow: 2px 2px lightblue;
+}
+
+.fish-card__image {
+    width: 120px;
 }
