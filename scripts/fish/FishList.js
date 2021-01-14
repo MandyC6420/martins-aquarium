@@ -13,7 +13,7 @@ export function FishList (){
         fishListHTMLString += Fish(allTheFish[i]);
       }
     
-      console.log(fishListHTMLString);
+      // console.log(fishListHTMLString);
     
       fishContainer.innerHTML = `<h2>My Fish</h2>${fishListHTMLString}`;
     }
