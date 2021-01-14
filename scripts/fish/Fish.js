@@ -1,6 +1,5 @@
 export function Fish(fishObject){
-    return `
-    <section class="fish-card">
+    return `<section class="fish-card">
     <img
       class="fish-card__image"
       src="https://static.hollywoodreporter.com/sites/default/files/2014/12/dory_a_l.jpg"
