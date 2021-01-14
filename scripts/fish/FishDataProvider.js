@@ -53,4 +53,10 @@ const fishCollection = [
   },
 
   
-];
+]
+//this is a function another way to write it:
+//export function useFish(){}
+//.slice makes a copy so we can edit it
+export function useFish () {
+  return fishCollection.slice()
+}
