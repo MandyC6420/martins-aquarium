@@ -4,6 +4,10 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.container {
+  
+}
+
 img {
   height: 20vh;
 }
@@ -29,9 +33,11 @@ header {
   border: 1px solid black;
 }
 
-aside {
-  border: 1px solid black;
-  padding: 1em;
+.aside-container{
+  display: flex;
+  justify-content: center;
+  width: 95vw;
+
 }
 
 .fish-card {
@@ -52,7 +58,10 @@ aside {
   text-align: center;
 }
 
-.location-card {
+.site-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   border: 1px solid black;
   margin: 1em;
 }
@@ -84,7 +93,6 @@ footer {
 
 .nav-container {
   justify-content: center;
-  /* background-color: rgb(255, 102, 0); */
 }
 
 .nav-item {
