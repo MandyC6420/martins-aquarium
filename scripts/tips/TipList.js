@@ -1,8 +1,9 @@
 import {useSalinityTips} from "./TipDataProvider.js"
-// import { FishList } from "../fish/FishList.js";
 import {Tip} from "./Tip.js"
 
+//building a container to put the tips in
 let tipContainer = document.querySelector("#tip-list")
+
 
 export function TipList(){
     const allTheSalinityTips = useSalinityTips();
