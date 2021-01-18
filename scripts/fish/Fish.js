@@ -6,11 +6,14 @@ export function Fish(fishObject){
       alt="Fish"
     />
     <div class="fish-card__text">
-      <p>${fishObject.species}</p>
-      <p>${fishObject.name}</p>
-      <p>${fishObject.Size}</p>
-      <p>${fishObject.Native}</p>
-      <p>${fishObject.food}</p>
+      <p class = "fish-info">${fishObject.species}</p>
+      <p class = "fish-info">${fishObject.name}</p>
+      <p class = "fish-info">${fishObject.Size}</p>
+      <p class = "fish-info">${fishObject.Native}</p>
+      <p class = "fish-info">${fishObject.food}</p>
+      
+
+      
     </div>
   </section>`
 }

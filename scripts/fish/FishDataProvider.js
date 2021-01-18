@@ -11,6 +11,7 @@ const fishCollection = [
     food: "zooplankton or phytoplankton",
     Size: "4.3 inches",
     Native: "Western Pacific",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOcVmGFgab_t6csWsym1FcrwOLt6Q-6LRoFg&usqp=CAU"
   },
   {
     species: "Gold Fish",
